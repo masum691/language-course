@@ -1,16 +1,15 @@
 import React from 'react';
-import './CourseCart.css'
-
-const CourseCart = (props) => {
+import './ServiceCart.css'
+const ServiceCart = (props) => {
     console.log(props)
-    const { name, img, price, duration } = props.course;
+    const { name, img, price, duration } = props.serv;
     return (
         <div>
             {/* row row-cols-1 row-cols-md-3 g-4 */}
-            <div className="course-cart">
+            <div className="service-cart">
                 <div class="col">
                     <div class="card h-100">
-                        <img src={img} className="card-img-top mb-3" alt="..."/>
+                        <img src={img} className="card-img-top mb-3 img-fluid" alt="..."/>
                         <h3 className="text-danger ms-3">${price}/ <small className="fs-6 text-dark">Lifetime</small> </h3>
                         <div class ="card-body">
                         <h5 class ="card-title">{name}</h5>
@@ -27,4 +26,4 @@ const CourseCart = (props) => {
     );
 };
 
-export default CourseCart;
+export default ServiceCart;
