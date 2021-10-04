@@ -26,6 +26,9 @@ function App() {
           <Route path="/contact">
             <ContactUs></ContactUs>
           </Route>
+          <Route exact path="/">
+            <Home></Home>
+          </Route>
         </Switch>
       </Router>
 

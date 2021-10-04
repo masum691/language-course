@@ -1,61 +1,64 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import './Header.css'
 
 const Header = () => {
+    const linkStyle = {
+        fontWeight: "bold",
+        color: "red",
+        textDecoration: "none"
+    }
     return (
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <NavLink
-                            to="/home"
-                            activeStyle={{
-                                fontWeight: "bold",
-                                color: "red"
-                            }}
-                        >
-                            Home
-                        </NavLink>
-                        <NavLink
-                            to="/services"
-                            activeStyle={{
-                                fontWeight: "bold",
-                                color: "red"
-                            }}
-                        >
-                            Services
-                        </NavLink>
-                        <NavLink
-                            to="/about"
-                            activeStyle={{
-                                fontWeight: "bold",
-                                color: "red"
-                            }}
-                        >
-                            About Us
-                        </NavLink>
-                        <NavLink
-                            to="/contact"
-                            activeStyle={{
-                                fontWeight: "bold",
-                                color: "red"
-                            }}
-                        >
-                            Contact Us
-                        </NavLink>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="www.google.com">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <NavLink className="link"
+                                to="/home"
+                                activeStyle={linkStyle}
+                            >
+                                Home
+                            </NavLink>
+                        </li>
+                        <li class="nav-item">
+                            <NavLink className="link"
+                                to="/services"
+                                activeStyle={linkStyle}
+                            >
+                                Services
+                            </NavLink>
+                        </li>
 
-                    </div>
+                        <li class="nav-item">
+                            <NavLink className="link"
+                                to="/about"
+                                activeStyle={linkStyle}
+                            >
+                                About Us
+                            </NavLink>
+                        </li>
+                        <li class="nav-item">
+                            <NavLink className="link"
+                                to="/contact"
+                                activeStyle={linkStyle}
+                            >
+                                Contact Us
+                            </NavLink>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
                 </div>
-            </nav>
-        </div>
-    );
+            </div>
+        </nav>
+    )
 };
 
 export default Header;
