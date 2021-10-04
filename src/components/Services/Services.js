@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ServiceCart from '../ServiceCart/ServiceCart';
 
+// services 
 const Services = () => {
     const [services, setServices] = useState([]);
     useEffect( () => {
