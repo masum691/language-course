@@ -5,6 +5,7 @@
     "price": 243,
     "duration": "40 hours",
     "lesson": 22,
+    "details": "Learn basic English for everyday situations and improve your listening skills with this online English language course.",
     "students": 987,
     "img": "https://img.freepik.com/free-photo/young-student-man-learning-english-isolated-white-wall-excited-keeping-ok-gesture-eye_1187-130711.jpg?size=626&ext=jpg"
   },
@@ -14,6 +15,7 @@
     "price": 349,
     "duration": "20 hours",
     "lesson": 32,
+    "details": "This is an ABC Chinese course for beginners, including introduction of phonetics and daily expressions. From Peking University.",
     "students": 453,
     "img": "https://thumbs.dreamstime.com/b/speak-chinese-concept-happy-woman-against-people-s-republic-china-flag-background-141678987.jpg"
   },
@@ -23,6 +25,7 @@
     "price": 236,
     "duration": "32 hours",
     "lesson": 32,
+    "details": "Beginners course for learners of Spanish that focuses not only on language, specifically designed for English speakers.",
     "students": 654,
     "img": "https://www.thoughtco.com/thmb/pc54LSnJZ0d0Buvry1swnr3sIw0=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/spanish-on-blackboard-596d75c122fa3a00111f7fc9.jpg"
   },
@@ -32,6 +35,7 @@
     "price": 564,
     "duration": "45 hours",
     "lesson": 54,
+    "details": "Learn Marathi for everyday situations and improve your listening skills with this online Marathi language course",
     "students": 654,
     "img": "https://80907-519125-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/09/learn-foreign-languages.jpg"
   },
@@ -41,6 +45,7 @@
     "price": 432,
     "duration": "64 hours",
     "lesson": 21,
+    "details": "",
     "students": 235,
     "img": "https://www.optilingo.com/wp-content/uploads/2019/03/hindi-tablet-girl.jpg"
   },

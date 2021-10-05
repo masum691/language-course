@@ -29,10 +29,13 @@ const Footer = () => {
                     </div>
                     <div>
                         <h5>Contact</h5>
-                        <input className="mb-3" type="email" placeholder="Your email"/>
-                        <input type="password" placeholder="your password" /> <br /><br /><button className="btn btn-warning">Submit</button>
+                        <hr />
+                        <input className="mb-3 p-1" type="email" placeholder="Your email"/>
+                        <input className="p-1" type="password" placeholder="your password" /> <br /><br /><button className="btn btn-warning">Submit</button>
                     </div>
                 </div>
+                <hr />
+                <p className="text-center mt-4">&copy; copyright by coursea - 2021</p>
             </footer>
         </div>
     );

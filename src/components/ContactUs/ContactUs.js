@@ -3,15 +3,17 @@ import React from 'react';
 const ContactUs = () => {
     return (
         <div className="w-75 mx-auto">
-            <div>
-                <h4>Contact Us</h4>
+            <div className="fw-bold p-5 rounded mb-5">
+                <h4 className="text-danger">Contact Us</h4>
                 <h2>Get In Touch With Us</h2>
+                <hr />
                 <p>Location: Bangladesh</p>
                 <p>Phone: 0232345</p>
-                <p>Mail: coursera@gmail.com</p>
+                <p>Mail: coursea@gmail.com</p>
+                <p>Web: www.coursea@gmail.com</p>
 
             </div>
-            <div>
+            <div className="shadow-lg p-5 rounded">
                 <form>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
