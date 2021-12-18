@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import CourseCart from '../CourseCart/CourseCart';
+import Blog from './Blog/Blog';
 // import Services from '../Services/Services';
 import './Home.css'
 import LearnProcess from './LearnProcess/LearnProcess';
@@ -27,6 +28,7 @@ const Home = (props) => {
             </div>
             <Memorise></Memorise>
             <LearnProcess></LearnProcess>
+            <Blog></Blog>
         </div>
     );
 };
