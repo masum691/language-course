@@ -1,0 +1,12 @@
+.learn-process-card i{
+    color: #095AB3;
+}
+.learn-process-card h5{
+    color: #032c58;
+}
+.learn-process-card p{
+    color: #032c58;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}

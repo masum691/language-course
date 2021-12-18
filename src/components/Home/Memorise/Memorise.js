@@ -55,6 +55,9 @@ const Memorise = () => {
                     </div>
                 </div>
             </div>
+            <div className='text-center philosophy-btn mt-5'>
+                <button>Our Learning Philosophy</button>
+            </div>
         </div>
     );
 };

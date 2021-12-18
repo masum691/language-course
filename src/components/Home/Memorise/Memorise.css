@@ -3,6 +3,7 @@
     box-shadow: 10px 10px 30px rgb(208, 210, 211);
     border-radius: 6px;
     transition: 1s;
+    cursor: pointer;
 }
 .svg-card{
     transition: 1s;
@@ -34,4 +35,18 @@
 }
 .svg-card:hover .para{
     display: block;
+}
+.philosophy-btn button{
+    border: 0;
+    border: 2px solid rgb(73, 1, 95);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 14px 33px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(73, 1, 95);
+}
+.philosophy-btn button:hover{
+    border: 2px solid rgb(0, 145, 202);
+    color: rgb(0, 145, 202);
 }

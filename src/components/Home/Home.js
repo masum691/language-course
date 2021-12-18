@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import CourseCart from '../CourseCart/CourseCart';
 // import Services from '../Services/Services';
 import './Home.css'
+import LearnProcess from './LearnProcess/LearnProcess';
 import Memorise from './Memorise/Memorise';
 
 const Home = (props) => {
@@ -25,6 +26,7 @@ const Home = (props) => {
                 }
             </div>
             <Memorise></Memorise>
+            <LearnProcess></LearnProcess>
         </div>
     );
 };
