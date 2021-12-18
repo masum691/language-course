@@ -1,0 +1,37 @@
+.svg-card:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 30px rgb(208, 210, 211);
+    border-radius: 6px;
+    transition: 1s;
+}
+.svg-card{
+    transition: 1s;
+}
+.svg-one{
+    background-color: #A2D6E5;
+    border-radius: 6px;
+    margin: 14px;
+    padding: 38px 0;
+}
+.svg-two{
+    background-color: #D0C9E7;
+    border-radius: 6px;
+    margin: 14px;
+}
+.svg-three{
+    background-color: #8AD6C2;
+    border-radius: 6px;
+    margin: 14px;
+}
+.svg-four{
+    background-color: #F6C2C3;
+    border-radius: 6px;
+    margin: 14px;
+}
+.para{
+    display: none;
+    transition: 1s;
+}
+.svg-card:hover .para{
+    display: block;
+}
