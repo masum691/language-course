@@ -11,11 +11,11 @@ const Listen = () => {
                         Powerful Study Tools to Help
                         You <span className='memorize-listening'>Memorize Fast</span>
                     </h2>
-                    <h5>
+                    <p className='paragraph'>
                         Spend less time studying, more time speaking.
                         Our study tools help you learn faster, speak
                         better and understand language naturally.
-                    </h5>
+                    </p>
                 </div>
                 <div className='col-lg-6 col-sm-12'>
                     <img className='img-fluid' src={listeningImg} alt="" />
