@@ -1,0 +1,33 @@
+.banner-container{
+    background-color: rgb(238, 238, 238);
+}
+.select-option{
+    padding: 10px 64px;
+    border: 0;
+    border: 2px solid rgb(0, 145, 202);
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.lang-email{
+    border: 2px solid rgb(0, 145, 202);
+    padding: 10px 40px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.get-started{
+    border: 0;
+    background-color:rgb(0, 145, 202);
+    padding: 10px 22px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.get-started:hover{
+    background-color: rgb(73, 1, 95);
+}
+.lock-awesome, .stay-safe, .create-free{
+    color: rgb(85, 83, 79);
+}
