@@ -30,3 +30,17 @@
 .lock-awesome, .stay-safe, .create-free{
     color: rgb(85, 83, 79);
 }
+
+/* media queary */
+@media only screen and (max-width: 350px) {
+    .select-option{
+        padding: 4px 24px;
+    }
+    .lang-email{
+        padding: 4px 0px;
+    }
+    .get-started{
+        padding: 4px 10px;
+        font-size: 14px;
+    }
+  }

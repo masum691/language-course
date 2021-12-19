@@ -14,7 +14,7 @@ const Banner = () => {
                         <h3>Learn a Language</h3>
                         <h6 className='mt-3'>Learn a language right here with hundreds of free language-learning lessons, games and activities. Join us and have some fun.</h6>
                         <h6 className='mt-3 create-free'>Create Your Free Account</h6>
-                        <div className='w-50'>
+                        <div className=''>
                             <select className='select-option'>
                                 <option value="select">Select a Language</option>
                                 <option value="english">English</option>
