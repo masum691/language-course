@@ -5,6 +5,7 @@ import Blog from './Blog/Blog';
 // import Services from '../Services/Services';
 import './Home.css'
 import LearnProcess from './LearnProcess/LearnProcess';
+import Listen from './Listen/Listen';
 import Memorise from './Memorise/Memorise';
 
 const Home = (props) => {
@@ -29,6 +30,7 @@ const Home = (props) => {
             </div> */}
             <Banner></Banner>
             <Memorise></Memorise>
+            <Listen></Listen>
             <LearnProcess></LearnProcess>
             <Blog></Blog>
         </div>
