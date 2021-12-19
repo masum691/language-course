@@ -1,0 +1,11 @@
+.contact-container h3{
+    color: rgb(73, 1, 95);
+}
+.contact-us p{
+    color: rgb(73, 1, 95);
+    font-weight: 600;
+}
+.contact-us a{
+    font-weight: 600;
+    color: rgb(73, 1, 95);
+}

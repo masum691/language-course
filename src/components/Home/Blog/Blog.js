@@ -11,7 +11,7 @@ const Blog = () => {
             <h2 className='text-center mt-5 mb-4'>Blog</h2>
             <div class="row row-cols-1 row-cols-md-4 g-4 container mx-auto">
                 <div class="col">
-                    <div class="card h-100 border-0">
+                    <div class="card h-100 border-0 blog-card">
                         <img src={blog1} class="card-img-top" alt="..." />
                             <div class="card-body">
                             <small>July 22th, 2018</small>
@@ -20,7 +20,7 @@ const Blog = () => {
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 border-0">
+                    <div class="card h-100 border-0 blog-card">
                         <img src={blog2} class="card-img-top" alt="..." />
                             <div class="card-body">
                             <small>July 22th, 2018</small>
@@ -29,7 +29,7 @@ const Blog = () => {
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 border-0">
+                    <div class="card h-100 border-0 blog-card">
                         <img src={blog3} class="card-img-top" alt="..." />
                             <div class="card-body">
                             <small>July 22th, 2018</small>
@@ -38,7 +38,7 @@ const Blog = () => {
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 border-0">
+                    <div class="card h-100 border-0 blog-card">
                         <img src={blog4} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <small>July 22th, 2018</small>
