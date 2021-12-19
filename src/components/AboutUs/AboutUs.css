@@ -9,7 +9,10 @@
     margin-right: 25px;
 }
 .card-img{
-    height: 400px;
     width: 100%;
     margin: 0 auto;
+}
+.teacher-social-link{
+    color: rgb(0, 145, 202);
+    cursor: pointer;
 }

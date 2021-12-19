@@ -30,10 +30,10 @@ const Header = () => {
                             </li>
                             <li class="nav-item">
                                 <NavLink className="link"
-                                    to="/services"
+                                    to="/courses"
                                     activeStyle={linkStyle}
                                 >
-                                    Services
+                                    Courses
                                 </NavLink>
                             </li>
 
